@@ -1,0 +1,215 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.subscribebutton{
+  height:38px;
+  background:#E24E42;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.colorat{
+  padding:15px;
+  background:#008F95;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/************ Header **************/
+header{
+  background:#008F95;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#E24E42 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #brand{
+  float:left;
+}
+
+header #brand h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .clujschool, header .actual a{
+  color:#E24E42;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/************ ´Reclama **************/
+#reclama{
+  min-height:400px;
+  width: 100%;
+  height: 400px;
+    background-image: url("../img/image.jpeg");
+    background-size: cover;
+   border: 1px solid red;
+  text-align:center;
+  color:#ffffff;
+}
+
+#reclama h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#reclama p{
+  font-size:20px;
+}
+
+/************ Subscription **************/
+#subscribe{
+  padding:15px;
+  color:#ffffff;
+  background:#008F95
+}
+
+#subscribe h1{
+  float:left;
+}
+
+#subscribe form {
+  float:right;
+  margin-top:15px;
+}
+
+#subscribe input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/*********** Sectiuni ***************/
+#sectiuni{
+  margin-top:20px;
+}
+
+#sectiuni .sectiune{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#sectiuni .sectiune img{
+  width:90px;
+  height: 90px;
+}
+
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+article#articol form .form_label{
+  display:inline-block;
+      width:100px;
+}
+/******** Articol ***************/
+article#articol{
+  float:left;
+  width:65%;
+}
+article#articol2{
+  float:left;
+  width:65%;
+}
+/********** Cursuri ************/
+ul#cursuri li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#E24E42;
+  text-align: center;
+}
+
+/* Media Queries */
+/*@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  } 
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+} */

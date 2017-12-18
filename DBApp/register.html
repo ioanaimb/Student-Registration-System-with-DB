@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Student Registration System | Register</title>
+    <style type="text/css">
+    label {
+      display:inline-block;
+      width:100px;
+    }
+</style>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="brand">
+          <h1><span class="clujschool">ClujSchool</span> Student Registration</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>            
+            <li><a href="view.html">View</a></li>
+            <li class="actual"><a href="register.html">Register</a></li>
+            <li><a href="students.php">Students</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="subscribe">
+      <div class="container">
+        <h1>Subscribe for news</h1>
+        <form>
+          <input type="email" placeholder="Enter email address">
+          <button type="submit" class="subscribebutton">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="continut">
+      <div class="container">
+        <article id="articol">
+           <form action = "http://localhost/CursWebSept2017/Section13Preview/application_with_db/DBApp/add_student.php" method='post'>
+            <h1 class="h1_titlul">Add a New Student</h1>
+            <p><label>First Name: </label><input type="text" name="first_name"></p>
+            <p><label>Last Name: </label><input type="text" name="last_name"></p> 
+            <p><label>Address:   </label><input type="text" name="address"></p>
+            <p><label>Age:  </label><input type="text" name="age"></p> 
+            <button type="submit" class="subscribebutton">Register</button>     
+           </form>
+          <p class="colorat">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </article>
+
+        <aside id="sidebar">
+          <div class="colorat">
+            <h3>Some more information</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <p>ClujSchool, Copyright &copy; 2017</p>
+    </footer>
+  </body>
+</html>
